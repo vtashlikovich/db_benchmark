@@ -1,0 +1,25 @@
+{
+  "name": "db_benchmark",
+  "version": "1.0.0",
+  "description": "Benchmarking database financial operations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Vadzim Tashlikovich",
+  "license": "ISC",
+  "dependencies": {
+    "@sequelize/core": "^7.0.0-alpha.10",
+    "@withshepherd/faker": "^5.5.5",
+    "dotenv": "^16.0.0",
+    "pg": "^8.7.3",
+    "sequelize": "^6.17.0",
+    "uniqid": "^5.4.0",
+    "uuid": "^8.3.2",
+    "winston": "^3.6.0"
+  }
+}
